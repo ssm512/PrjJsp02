@@ -7,7 +7,7 @@
     // &username=%EC%8A%A4%EC%B9%B4%EC%9D%B410
     // &email=sky10%40green.com
     request.setCharacterEncoding("utf-8");
-    String		userid			=		request.getParameter("userid");
+    String		userid			=		request.getParameter("userid");		// request : 객체임
     String		username		=		request.getParameter("username");
     String		email				=		request.getParameter("email");
     
